@@ -1,0 +1,68 @@
+﻿@model UsuarioLogadoViewModel
+
+<h2>Olá, @Model.NomeUsuario!</h2>
+
+<h3>Músicas Favoritas</h3>
+@if (Model.MusicasFavoritas.Any())
+{
+    <ul>
+        @foreach (var musica in Model.MusicasFavoritas)
+        {
+            <li>@musica.Nome</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Você ainda não favoritou nenhuma música.</p>
+}
+
+<h3>Pesquisar músicas</h3>
+<form method="get" asp-action="Logado">
+    <input type="text" name="pesquisa" value="@Model.TermoPesquisa" placeholder="Buscar músicas..." />
+    <button type="submit">Buscar</button>
+</form>
+
+@if (ViewBag.MusicasPesquisa != null && ((List<MusicaViewModel>)ViewBag.MusicasPesquisa).Count > 0)
+{
+    <h4>Resultados da busca:</h4>
+    <ul id="listaMusicasPesquisa">
+        @foreach (var musica in (List<MusicaViewModel>)ViewBag.MusicasPesquisa)
+        {
+            <li>
+                @musica.Nome
+                <button class="btnFavoritar" data-id="@musica.Id">
+                    @(musica.Favoritada ? "Desfavoritar" : "Favoritar")
+                </button>
+            </li>
+        }
+    </ul>
+}
+else if (!string.IsNullOrEmpty(Model.TermoPesquisa))
+{
+    <p>Nenhuma música encontrada para "@Model.TermoPesquisa".</p>
+}
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".btnFavoritar").click(function(){
+                var btn = $(this);
+                var musicaId = btn.data("id");
+
+                $.post('@Url.Action("ToggleFavorito")', { musicaId: musicaId })
+                    .done(function(response){
+                        if(response.sucesso){
+                            btn.text(response.favoritado ? "Desfavoritar" : "Favoritar");
+                        } else {
+                            alert("Erro ao alterar favorito.");
+                        }
+                    })
+                    .fail(function(){
+                        alert("Erro na requisição.");
+                    });
+            });
+        });
+    </script>
+}

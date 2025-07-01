@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Emule.ApplicationLayer/1.0.0": {
+        "dependencies": {
+          "Emule.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Emule.ApplicationLayer.dll": {}
+        }
+      },
+      "Emule.Domain/1.0.0": {
+        "runtime": {
+          "Emule.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emule.ApplicationLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emule.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

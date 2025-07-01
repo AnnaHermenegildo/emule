@@ -1,0 +1,17 @@
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.csproj.AssemblyReference.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.AssemblyInfoInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.AssemblyInfo.cs
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.csproj.CoreCompileInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Infra.deps.json
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Infra.runtimeconfig.json
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Infra.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Infra.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Domain.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\bin\Debug\net9.0\Emule.Domain.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.In.CE70D81B.Up2Date
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\refint\Emule.Infra.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\Emule.Infra.genruntimeconfig.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Infra\obj\Debug\net9.0\ref\Emule.Infra.dll

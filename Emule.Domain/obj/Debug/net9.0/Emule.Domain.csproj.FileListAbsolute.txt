@@ -1,0 +1,11 @@
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\bin\Debug\net9.0\Emule.Domain.deps.json
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\bin\Debug\net9.0\Emule.Domain.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\bin\Debug\net9.0\Emule.Domain.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.AssemblyInfoInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.AssemblyInfo.cs
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.csproj.CoreCompileInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\refint\Emule.Domain.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\Emule.Domain.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.Domain\obj\Debug\net9.0\ref\Emule.Domain.dll

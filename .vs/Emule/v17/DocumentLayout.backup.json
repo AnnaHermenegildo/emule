@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.webapp\\views\\usuario\\logado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|solutionrelative:emule.webapp\\views\\usuario\\logado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|solutionrelative:emule.webapp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.webapp\\models\\usuariologadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|solutionrelative:emule.webapp\\models\\usuariologadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0261390A-9361-412A-B6FC-E4388387A28C}|Emule.ApplicationLayer\\Emule.ApplicationLayer.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.applicationlayer\\services\\musicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0261390A-9361-412A-B6FC-E4388387A28C}|Emule.ApplicationLayer\\Emule.ApplicationLayer.csproj|solutionrelative:emule.applicationlayer\\services\\musicaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E70736-9B57-4C3E-AF5F-3FC7C51C2161}|Emule.API\\Emule.API.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.api\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E70736-9B57-4C3E-AF5F-3FC7C51C2161}|Emule.API\\Emule.API.csproj|solutionrelative:emule.api\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.webapp\\services\\musicaapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479FE1C0-6AB0-4EB0-B5FE-202DE0DC6BF0}|Emule.WebApp\\Emule.WebApp.csproj|solutionrelative:emule.webapp\\services\\musicaapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A737763-B260-4A99-9126-6ADAFD9BC6E6}|Emule.Infra\\Emule.Infra.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.infra\\repositories\\musicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A737763-B260-4A99-9126-6ADAFD9BC6E6}|Emule.Infra\\Emule.Infra.csproj|solutionrelative:emule.infra\\repositories\\musicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E70736-9B57-4C3E-AF5F-3FC7C51C2161}|Emule.API\\Emule.API.csproj|c:\\users\\anna-\\onedrive\\documentos\\projetos\\emule\\emule.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E70736-9B57-4C3E-AF5F-3FC7C51C2161}|Emule.API\\Emule.API.csproj|solutionrelative:emule.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logado.cshtml",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Views\\Usuario\\Logado.cshtml",
+              "RelativeDocumentMoniker": "Emule.WebApp\\Views\\Usuario\\Logado.cshtml",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Views\\Usuario\\Logado.cshtml",
+              "RelativeToolTip": "Emule.WebApp\\Views\\Usuario\\Logado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T01:53:00.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioLogadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Models\\UsuarioLogadoViewModel.cs",
+              "RelativeDocumentMoniker": "Emule.WebApp\\Models\\UsuarioLogadoViewModel.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Models\\UsuarioLogadoViewModel.cs",
+              "RelativeToolTip": "Emule.WebApp\\Models\\UsuarioLogadoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:51:55.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MusicaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.Infra\\Repositories\\MusicaRepository.cs",
+              "RelativeDocumentMoniker": "Emule.Infra\\Repositories\\MusicaRepository.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.Infra\\Repositories\\MusicaRepository.cs",
+              "RelativeToolTip": "Emule.Infra\\Repositories\\MusicaRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:41:58.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.API\\Program.cs",
+              "RelativeDocumentMoniker": "Emule.API\\Program.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.API\\Program.cs",
+              "RelativeToolTip": "Emule.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:36:17.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusicaService.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.ApplicationLayer\\Services\\MusicaService.cs",
+              "RelativeDocumentMoniker": "Emule.ApplicationLayer\\Services\\MusicaService.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.ApplicationLayer\\Services\\MusicaService.cs",
+              "RelativeToolTip": "Emule.ApplicationLayer\\Services\\MusicaService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:33:33.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MusicaApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Services\\MusicaApiClient.cs",
+              "RelativeDocumentMoniker": "Emule.WebApp\\Services\\MusicaApiClient.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Services\\MusicaApiClient.cs",
+              "RelativeToolTip": "Emule.WebApp\\Services\\MusicaApiClient.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvycAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:29:01.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusicaController.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.API\\Controllers\\MusicaController.cs",
+              "RelativeDocumentMoniker": "Emule.API\\Controllers\\MusicaController.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.API\\Controllers\\MusicaController.cs",
+              "RelativeToolTip": "Emule.API\\Controllers\\MusicaController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:29:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Emule.WebApp\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\anna-\\OneDrive\\Documentos\\Projetos\\Emule\\Emule.WebApp\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Emule.WebApp\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAMwJYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T01:28:45.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿@model List<Emule.WebApp.Models.PlanoViewModel>
+@{
+    ViewData["Title"] = "Escolher Plano";
+}
+
+<h2>Escolha um Plano</h2>
+
+<div class="row">
+    @foreach (var plano in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@plano.Nome</h5>
+                    <p class="card-text">Duração: @plano.DuracaoEmDias dias</p>
+                    <p class="card-text">Preço: R$ @plano.Preco</p>
+                    <form asp-controller="Assinatura" asp-action="Criar" method="post">
+                        <input type="hidden" name="PlanoId" value="@plano.Id" />
+                        <input type="hidden" name="UsuarioId" value="@TempData["UsuarioId"]" />
+                        <button type="submit" class="btn btn-primary">Assinar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>

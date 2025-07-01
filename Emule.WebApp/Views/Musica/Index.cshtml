@@ -1,0 +1,38 @@
+﻿@model List<Emule.WebApp.Models.MusicaViewModel>
+@{
+    ViewData["Title"] = "Músicas";
+}
+
+<h2>Músicas</h2>
+
+<form method="get" asp-action="Index">
+    <input type="text" name="pesquisa" value="@(ViewData["Pesquisa"] ?? "")" class="form-control mb-2" placeholder="Pesquisar músicas..." />
+    <button class="btn btn-primary mb-3">Buscar</button>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Banda</th>
+            <th>Duração</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var musica in Model)
+        {
+            <tr>
+                <td>@musica.Titulo</td>
+                <td>@musica.BandaNome</td>
+                <td>@musica.Duracao.ToString(@"mm\:ss")</td>
+                <td>
+                    <form method="post" asp-controller="Musica" asp-action="Favoritar">
+                        <input type="hidden" name="musicaId" value="@musica.Id" />
+                        <button type="submit" class="btn btn-sm btn-outline-danger">❤️ Favoritar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,111 @@
+﻿@model Emule.WebApp.Models.NovoUsuarioViewModel
+@{
+    ViewData["Title"] = "Criar Conta";
+}
+
+<h2>Registrar</h2>
+
+<form asp-action="CriarConta" method="post" id="formCadastro">
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Senha"></label>
+        <input asp-for="Senha" class="form-control" type="password" />
+        <span asp-validation-for="Senha" class="text-danger"></span>
+    </div>
+
+    <div class="form-group" id="divPlano">
+        <label asp-for="PlanoSelecionadoId">Plano</label>
+        <select asp-for="PlanoSelecionadoId" asp-items="Model.Planos" class="form-control"></select>
+        <span asp-validation-for="PlanoSelecionadoId" class="text-danger"></span>
+    </div>
+
+    <div id="divPagamento" style="display:none;">
+        <h4>Pagamento com Cartão de Crédito</h4>
+
+        <div class="form-group">
+            <label for="NumeroCartao">Número do Cartão</label>
+            <input type="text" id="NumeroCartao" name="NumeroCartao" class="form-control" maxlength="19" placeholder="1234 5678 9012 3456" />
+            <span class="text-danger" asp-validation-for="NumeroCartao"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="NomeCartao">Nome no Cartão</label>
+            <input type="text" id="NomeCartao" name="NomeCartao" class="form-control" />
+            <span class="text-danger" asp-validation-for="NomeCartao"></span>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="ValidadeCartao">Validade (MM/AA)</label>
+                <input type="text" id="ValidadeCartao" name="ValidadeCartao" class="form-control" placeholder="MM/AA" maxlength="5" />
+                <span class="text-danger" asp-validation-for="ValidadeCartao"></span>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="CVV">CVV</label>
+                <input type="password" id="CVV" name="CVV" class="form-control" maxlength="4" placeholder="123" />
+                <span class="text-danger" asp-validation-for="CVV"></span>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Criar conta</button>
+</form>
+
+@section Scripts {
+
+    <script>
+        (function() {
+            const planoSelect = document.querySelector('select[name="PlanoSelecionadoId"]');
+            const divPagamento = document.getElementById('divPagamento');
+            const divPlano = document.getElementById('divPlano');
+
+            function atualizarVisibilidade() {
+                const planoFreeId = "1";
+                const selecionado = planoSelect.value;
+
+                if (selecionado === planoFreeId) {
+                    divPlano.style.display = 'none';
+                    divPagamento.style.display = 'none';
+                } else {
+                    divPlano.style.display = 'block';
+                    divPagamento.style.display = 'block';
+                }
+            }
+
+            atualizarVisibilidade();
+
+            planoSelect.addEventListener('change', atualizarVisibilidade);
+        })();
+    </script>
+}
+<script>
+    document.getElementById('formCadastro').addEventListener('submit', function(e) {
+        const planoFreeId = "1"; 
+        const planoSelecionado = document.querySelector('select[name="PlanoSelecionadoId"]').value;
+
+        if (planoSelecionado !== planoFreeId) {
+            const numero = document.getElementById('NumeroCartao').value.trim();
+            const nome = document.getElementById('NomeCartao').value.trim();
+            const validade = document.getElementById('ValidadeCartao').value.trim();
+            const cvv = document.getElementById('CVV').value.trim();
+
+            let erros = [];
+
+            if (!numero) erros.push("Número do cartão é obrigatório.");
+            if (!nome) erros.push("Nome no cartão é obrigatório.");
+            if (!validade) erros.push("Validade do cartão é obrigatória.");
+            if (!cvv) erros.push("CVV é obrigatório.");
+
+            if (erros.length > 0) {
+                e.preventDefault(); 
+                alert(erros.join("\n"));
+            }
+        }
+    });
+</script>

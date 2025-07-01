@@ -1,0 +1,15 @@
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.AssemblyInfo.cs
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\bin\Debug\net9.0\Emule.ApplicationLayer.deps.json
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\bin\Debug\net9.0\Emule.ApplicationLayer.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\bin\Debug\net9.0\Emule.ApplicationLayer.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\bin\Debug\net9.0\Emule.Domain.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\bin\Debug\net9.0\Emule.Domain.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.Ap.CA87DC58.Up2Date
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\refint\Emule.ApplicationLayer.dll
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\Emule.ApplicationLayer.pdb
+C:\Users\anna-\OneDrive\Documentos\Projetos\Emule\Emule.ApplicationLayer\obj\Debug\net9.0\ref\Emule.ApplicationLayer.dll
